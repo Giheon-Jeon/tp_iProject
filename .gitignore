@@ -1,11 +1,26 @@
 # Compiled class file
 *.class
 
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
 # Log file
 *.log
 
+# Build output
+/out/
+/target/
+/build/
+
 # BlueJ files
 *.ctxt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -22,3 +37,6 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Environment / secrets (예: 환경변수 파일)
+.env
